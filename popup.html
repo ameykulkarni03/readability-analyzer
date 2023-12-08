@@ -1,0 +1,40 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Readability Analysis</title>
+  <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 10px;
+        background-color: #f3f4f6;
+        color: #333;
+    }
+    #analyzeButton {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    #analyzeButton:hover {
+        background-color: #45a049;
+    }
+    #results {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <button id="analyzeButton">Analyze Readability</button>
+  <div id="results"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
